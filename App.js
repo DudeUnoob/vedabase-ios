@@ -8,6 +8,7 @@ import Bg from './src/pages/Bhagavad Gita';
 import SrimadBhagavatam from './src/pages/Srimad Bhagavatam';
 import ChaitanyaCharitamrta from './src/pages/Chaitanya Charitamrta';
 import KrsnaBook from './src/pages/Krsna Book';
+import Bhagavad_Gita_Verses from './src/pages/Bhagavad_Gita_Verses';
 const Stack = createNativeStackNavigator();
 export default function App() {
   
@@ -19,6 +20,7 @@ export default function App() {
       <Stack.Screen name="Srimad Bhagavatam" component={SrimadBhagavatam} />
       <Stack.Screen name="Chaitanya Charitamrta" component={ChaitanyaCharitamrta} />
       <Stack.Screen name="Krsna Book" component={KrsnaBook} />
+      <Stack.Screen name='Bhagavad_Gita_Verses' component={Bhagavad_Gita_Verses} />
     </Stack.Navigator>
   </NavigationContainer>
   );
